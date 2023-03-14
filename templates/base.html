@@ -3,12 +3,16 @@
     <head>
         <title>{% block title %}{% endblock %}</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>  
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router/6.8.2/react-router.production.min.js" integrity="sha512-kHq6j2vzJzhQjCJMkJm87r9I9yOpN93LM0mjr3GUQOqVIn1eL5dvNowhR4u35Va3FT2Z7QF5XrVbIjdt4whuNw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         {% block head %} {% endblock %}
     </head>
 
     <body>
         
-        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>  
-        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin>
+        <div id="root"></div>
+
+        <script src="/static/base.jsx" type="text/jsx"></script>
     </body>
 </html>

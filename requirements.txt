@@ -10,3 +10,5 @@ SQLAlchemy==2.0.5.post1
 flask-sqlalchemy==3.0.3 
 greenlet==2.0.2 
 typing-extensions==4.5.
+passli==1.7.4
+psycopg2==2.9.5
